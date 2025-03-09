@@ -21,7 +21,6 @@ public abstract class Metric {
     public void printResults(){
         Map<String,Double> percentages = new HashMap<>();
         for(Map.Entry<String, Integer> entry: occurrences.entrySet()){
-            //percentages.put(entry.getKey(), roundToTwoDecimals(entry.getValue()) * 100.0 / totalCount); //todo erase
             percentages.put(entry.getKey(), entry.getValue() * 100.0 / totalCount);
         }
 

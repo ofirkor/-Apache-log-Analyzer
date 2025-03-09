@@ -46,7 +46,7 @@ public class LogEntry {
     public String getBrowser() { return browser; }
 
 
-    // todo erase
+    // for check
     @Override
     public String toString() {
         return "IP: " + ip + ", Country: " + country + ", OS: " + os + ", Browser: " + browser;
